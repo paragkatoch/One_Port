@@ -31,6 +31,7 @@ export const socialHandles = {
 	twitch: "twitch",
 	twitter: "twitter",
 	youtube: "youtube",
+	website: "website",
 } as const;
 
 export const shapes = {
