@@ -1,0 +1,55 @@
+@use "../../../styles/abstract/" as *;
+
+@include mobile {
+	.navbar {
+		position: sticky;
+		top: 1rem;
+		z-index: 2;
+
+		margin-top: 1rem;
+		padding: 1rem;
+		max-width: 90vw;
+		border-radius: 1.5rem;
+
+		background-color: var(--quinary-color);
+		backdrop-filter: blur(16px);
+		filter: drop-shadow(0px 24px 32px var(--shadow-color));
+
+		overflow-x: scroll;
+
+		// hide scrollbar
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		.container {
+			display: grid;
+			grid-auto-flow: column;
+			column-gap: 2rem;
+			padding: 0 1rem;
+			width: fit-content;
+		}
+
+		.follower {
+			position: absolute;
+			top: 50%;
+			height: 52%;
+			border-radius: 1rem;
+
+			background-color: var(--tertiary-color);
+			transform: translateY(-50%);
+			transition: all 0.5s cubic-bezier(0.33, 0.34, 0.07, 0.99),
+				background-color var(--transition-time);
+		}
+
+		button {
+			font: var(--p);
+			font-weight: normal;
+			z-index: 2;
+			cursor: pointer;
+			color: var(--primary-color);
+		}
+	}
+}

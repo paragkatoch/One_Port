@@ -1,0 +1,66 @@
+@use "../../../styles/abstract" as *;
+
+@include mobile {
+	.block_container {
+		--cell-width: 165px;
+		--cell-max-width: 165px;
+
+		--cell-height: 165px;
+		--cell-min-height: 165px;
+
+		--cell-gap: 12px;
+
+		--container-width: 100%;
+		--container-max-width: 342px;
+
+		width: var(--container-width);
+		max-width: var(--container-max-width);
+		height: fit-content;
+		padding-top: 3.5rem;
+
+		display: inline-grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: var(--cell-gap);
+	}
+}
+
+@media screen and (max-width: 424px) {
+	.block_container {
+		--cell-width: 42vw;
+		--cell-max-width: 165px;
+
+		--cell-height: fit-content;
+		--cell-min-height: 165px;
+
+		--container-width: calc(84vw + 12px);
+	}
+}
+
+@include tablet {
+	.block_container {
+		--cell-width: 190px;
+		--cell-max-width: 190px;
+
+		--cell-height: 190px;
+		--cell-min-height: 190px;
+
+		--container-max-width: 610px;
+
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@include desktopSmall {
+	.block_container {
+		--cell-width: 217px;
+		--cell-max-width: 217px;
+
+		--cell-height: 217px;
+		--cell-min-height: 217px;
+
+		--cell-gap: 20px;
+		--container-max-width: 928px;
+
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

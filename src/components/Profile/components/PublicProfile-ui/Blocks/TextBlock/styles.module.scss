@@ -1,0 +1,57 @@
+@use "../../../../styles/abstract" as *;
+
+@include mobile {
+	.block_container {
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		.userImage {
+			position: relative;
+			width: 56px;
+			height: 56px;
+		}
+
+		.blockHeading {
+			font: var(--h2);
+			letter-spacing: 0.02em;
+			color: var(--primary-color);
+		}
+		.blockDescription {
+			padding-top: 0.5rem;
+			margin-bottom: 2rem;
+
+			font: var(--p);
+			letter-spacing: 0.02em;
+			color: var(--primary-color);
+			white-space: pre-line;
+		}
+
+		.buttonPos {
+			left: 0.5rem;
+			bottom: 0.5rem;
+		}
+	}
+}
+
+@include tablet {
+	.block_container {
+		padding: 1.5rem;
+
+		.buttonPos {
+			left: 1.5rem;
+		}
+	}
+}
+
+@include desktopSmall {
+	.block_container {
+		padding: 3rem 2rem;
+
+		.buttonPos {
+			left: 2rem;
+		}
+	}
+}

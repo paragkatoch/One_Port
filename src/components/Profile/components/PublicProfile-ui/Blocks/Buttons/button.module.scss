@@ -1,0 +1,64 @@
+@use "../../../../styles/abstract" as *;
+
+@include mobile {
+	.block_button {
+		position: absolute;
+		left: 0.5rem;
+		bottom: 0.5rem;
+		max-width: 2.875rem;
+		padding: 0.25rem 0.75rem;
+		cursor: pointer;
+
+		@include flex-center;
+		color: var(--primary-color);
+
+		border: 1px solid var(--secondary-color);
+		box-sizing: border-box;
+		border-radius: 1rem;
+
+		background-color: var(--tertiary-color);
+		overflow: hidden;
+
+		transition: max-width 0.55s cubic-bezier(0.33, 0.34, 0.07, 1),
+			background-color var(--transition-time), border var(--transition-time) !important;
+
+		p {
+			max-width: min(calc(var(--cell-width) * 0.65), 24ch);
+
+			padding-left: 0.5rem;
+
+			font: var(--p);
+			letter-spacing: 0.02em;
+			white-space: nowrap;
+			opacity: 0;
+			transition: opacity 0.1s;
+			text-transform: capitalize;
+		}
+
+		.arrowIcon {
+			@include flex-center-center;
+			width: 0.75rem;
+			height: 1.125rem;
+
+			svg {
+				stroke: var(--primary-color);
+				width: 0.75rem;
+				height: 0.75rem;
+			}
+		}
+	}
+	.block:hover {
+		.block_button {
+			max-width: 100%;
+			p {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+@include tablet {
+	.block_button {
+		padding: 0.5rem 1rem;
+	}
+}

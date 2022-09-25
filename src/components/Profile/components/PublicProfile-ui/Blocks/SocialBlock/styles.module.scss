@@ -1,0 +1,19 @@
+@use "../../../../styles/abstract" as *;
+
+.block_container {
+	@include flex-center-center;
+
+	> svg,
+	> svg path {
+		fill: var(--primary-color);
+	}
+	> svg {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+	.buttonPos {
+		left: 0.5rem;
+		bottom: 0.5rem;
+	}
+}

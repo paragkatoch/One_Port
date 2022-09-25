@@ -1,0 +1,214 @@
+{
+	"name": "Venkata Subbarao",
+	"blocks": [
+		{
+			"id": "shape1",
+			"_key": "shape1",
+			"name": "shape1",
+			"blockType": "intro",
+			"categories": ["About", "Contact"],
+			"description": "Hi! I'm <b>Venkata Subbarao 👋</b><br>| Microsoft and C# Corner MVP | Super User | MCT | Community Lead at D365 Champs | Mentor | Speaker | Blogger |",
+			"shape": "horizontal_R",
+			"image": "https://i.imgur.com/DxogC10.jpg"
+		},
+		{
+			"id": "shape2",
+			"_key": "shape2",
+			"name": "shape2",
+			"blockType": "theme",
+			"categories": ["Theme"],
+			"shape": "square"
+		},
+
+		{
+			"id": "asa",
+			"_key": "asa",
+			"name": "asa",
+			"blockType": "image",
+			"url": "/",
+			"buttonText": "Solutions Architect",
+			"image": "/images/new/asa.png",
+			"categories": ["Awards"],
+			"shape": "square"
+		},
+		{
+			"id": "mct",
+			"_key": "mct",
+			"name": "mct",
+			"blockType": "image",
+			"url": "/",
+			"buttonText": "MCT",
+			"image": "/images/new/mct.png",
+			"categories": ["Awards"],
+			"shape": "square"
+		},
+		{
+			"id": "c",
+			"_key": "c",
+			"name": "c",
+			"blockType": "image",
+			"url": "/",
+			"buttonText": "C# corner",
+			"image": "/images/new/c.png",
+			"categories": ["Awards"],
+			"shape": "square"
+		},
+
+		{
+			"id": "bi",
+			"_key": "bi",
+			"name": "bi",
+			"blockType": "image",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/bi.png",
+			"categories": ["Updates"],
+			"shape": "vertical_R",
+			"url": "https://powerbi.microsoft.com/en-us/blog/power-bi-component-for-vue-js-applications-is-now-available/?utm_campaign=Power%20Platform%20Developers%20Weekly&utm_medium=email&utm_source=Revue%20newsletter"
+		},
+		{
+			"id": "dataverse",
+			"_key": "dataverse",
+			"name": "dataverse",
+			"blockType": "image",
+			"url": "https://powerapps.microsoft.com/en-us/blog/3-primary-reasons-to-learn-dataverse/?utm_campaign=Power%20Platform%20Developers%20Weekly&utm_medium=email&utm_source=Revue%20newsletter",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/dataverse.png",
+			"categories": ["Updates"],
+			"shape": "vertical_R"
+		},
+
+		{
+			"id": "mvp",
+			"_key": "mvp",
+			"name": "mvp",
+			"blockType": "image",
+			"url": "/",
+			"buttonText": "MVP",
+			"image": "/images/new/mvp.png",
+			"categories": ["Awards"],
+			"shape": "square"
+		},
+		{
+			"id": "az",
+			"_key": "az",
+			"name": "az",
+			"blockType": "image",
+			"url": "/",
+			"buttonText": "AZ- 304",
+			"image": "/images/new/az.png",
+			"categories": ["Awards"],
+			"shape": "square"
+		},
+
+		{
+			"id": "power",
+			"_key": "power",
+			"name": "power",
+			"blockType": "image",
+			"url": "https://powerapps.microsoft.com/en-us/blog/whats-new-power-apps-august-2022-feature-update/?utm_campaign=Power%20Platform%20Developers%20Weekly&utm_medium=email&utm_source=Revue%20newsletter",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/power.png",
+			"categories": ["Updates"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "automate",
+			"_key": "automate",
+			"name": "automate",
+			"blockType": "image",
+			"url": "https://powerautomate.microsoft.com/en-us/blog/how-to-use-actionable-messages-in-outlook-with-power-automate/?utm_campaign=Power%20Platform%20Developers%20Weekly&utm_medium=email&utm_source=Revue%20newsletter",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/automate.png",
+			"categories": ["Updates"],
+			"shape": "vertical_R"
+		},
+		{
+			"id": "creator",
+			"_key": "creator",
+			"name": "creator",
+			"blockType": "image",
+			"url": "https://powerapps.microsoft.com/en-us/blog/introducing-the-creator-kit-efficiently-create-performant-fluent-ui-based-power-apps/?utm_campaign=Power%20Platform%20Developers%20Weekly&utm_medium=email&utm_source=Revue%20newsletter",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/creator.png",
+			"categories": ["Updates"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "sql",
+			"_key": "sql",
+			"name": "sql",
+			"blockType": "image",
+			"url": "https://learn.microsoft.com/en-us/power-apps/maker/data-platform/azure-synapse-link-pipelines?utm_campaign=Power%20Platform%20Developers%20Weekly&utm_medium=email&utm_source=Revue%20newsletter",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/sql.png",
+			"categories": ["Updates"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "linkedin",
+			"_key": "linkedin",
+			"name": "linkedin",
+			"blockType": "social",
+			"socialType": "linkedin",
+			"url": "https://www.linkedin.com/in/venkata-subbarao-polisetty-mvp-mct-54116618/",
+			"categories": ["Contact"],
+			"shape": "square"
+		},
+		{
+			"id": "website1",
+			"_key": "website1",
+			"name": "website1",
+			"blockType": "social",
+			"socialType": "website",
+			"url": "https://venkatasubbaraopolisetty.com/",
+			"categories": ["Contact"],
+			"shape": "square"
+		},
+		{
+			"id": "blog1",
+			"_key": "blog1",
+			"name": "blog1",
+			"blockType": "image",
+			"url": "https://venkatasubbaraopolisetty.com/category/power-apps/power-automate/",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/back.png",
+			"categories": ["Updates"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "blog2",
+			"_key": "blog2",
+			"name": "blog2",
+			"blockType": "image",
+			"url": "https://venkatasubbaraopolisetty.com/category/apps/",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/app.png",
+			"categories": ["Updates"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "blog3",
+			"_key": "blog3",
+			"name": "blog3",
+			"blockType": "image",
+			"url": "https://venkatasubbaraopolisetty.com/category/dynamics-crm/",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/pass.png",
+			"categories": ["Updates"],
+			"shape": "vertical_R"
+		},
+		{
+			"id": "blog4",
+			"_key": "blog4",
+			"name": "blog4",
+			"blockType": "image",
+			"url": "https://venkatasubbaraopolisetty.com/category/azure/",
+			"buttonText": "Checkout now!",
+			"image": "/images/new/crm.png",
+			"categories": ["Updates"],
+			"shape": "vertical_R"
+		}
+	],
+	"categories": ["Home", "Updates", "Awards", "Contact"],
+	"theme": "dark"
+}

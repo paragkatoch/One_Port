@@ -1,0 +1,26 @@
+@use "../../../../styles/abstract" as *;
+
+@include mobile {
+	.block {
+		position: relative;
+		transition: filter var(--transition-drop-shadow-time),
+			background-color var(--transition-time);
+
+		&:hover {
+			filter: drop-shadow(-16px 24px 24px var(--shadow-color));
+
+			.block_button {
+				max-width: 100%;
+				p {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.inactive {
+		transition: filter 0.3s;
+		opacity: 0.4;
+		filter: grayscale(0.2);
+		pointer-events: none;
+	}
+}

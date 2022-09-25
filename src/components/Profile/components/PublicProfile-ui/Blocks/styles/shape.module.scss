@@ -1,0 +1,70 @@
+@use "../../../../styles/abstract" as *;
+
+@mixin shape($radius: 24px) {
+	overflow: hidden;
+	border-radius: $radius;
+	background-color: var(--tertiary-color);
+}
+
+@include mobile {
+	.square {
+		@include shape(16px);
+		grid-column: span 1;
+
+		width: calc(var(--cell-width) * 1);
+		max-width: calc(var(--cell-max-width) * 1);
+
+		height: calc(var(--cell-height) * 1);
+		min-height: calc(var(--cell-min-height) * 1);
+	}
+
+	.vertical_R {
+		@include shape(16px);
+		grid-row: span 2;
+
+		width: calc(var(--cell-width) * 1);
+		max-width: calc(var(--cell-max-width) * 1);
+
+		height: calc(var(--cell-height) * 2 + var(--cell-gap));
+		min-height: calc(var(--cell-min-height) * 2 + var(--cell-gap));
+	}
+
+	.horizontal_R {
+		@include shape(16px);
+		grid-column: span 2;
+
+		width: calc(var(--cell-width) * 2 + var(--cell-gap));
+		max-width: calc(var(--cell-max-width) * 2 + var(--cell-gap));
+
+		height: calc(var(--cell-height) * 1);
+		min-height: calc(var(--cell-min-height) * 1);
+	}
+}
+
+@include tablet {
+	.square {
+		@include shape(20px);
+	}
+
+	.vertical_R {
+		@include shape(20px);
+	}
+
+	.horizontal_R {
+		@include shape(20px);
+	}
+}
+
+@include desktopSmall {
+	.square {
+		@include shape(24px);
+	}
+
+	.vertical_R {
+		@include shape(24px);
+	}
+
+	.horizontal_R {
+		@include shape(24px);
+	}
+}

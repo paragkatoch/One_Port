@@ -1,0 +1,51 @@
+@use "../../../../styles/abstract" as *;
+
+@include mobile {
+	.block_container {
+		padding: 1.5rem 1rem;
+
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+
+		.userImage {
+			position: relative;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+
+		.userDescription {
+			padding-top: 1rem;
+			max-height: calc((3 * 1.125rem + 1rem));
+			overflow: hidden;
+
+			font: var(--p);
+			letter-spacing: 0.02em;
+			color: var(--primary-color);
+
+			b {
+				font-weight: 500;
+			}
+		}
+	}
+}
+
+@include tablet {
+	.block_container {
+		padding: 2rem 1.5rem;
+	}
+}
+
+@include desktopSmall {
+	.block_container {
+		padding: 2rem;
+
+		.userImage {
+			width: 56px;
+			height: 56px;
+		}
+	}
+}

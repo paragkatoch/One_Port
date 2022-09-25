@@ -1,0 +1,31 @@
+@use "./abstract" as *;
+
+.app {
+	@include fonts();
+
+	* {
+		transition: background-color var(--transition-time) ease-in-out,
+			filter var(--transition-time) ease-in-out,
+			border var(--transition-time) ease-in-out;
+	}
+}
+
+@include mobile {
+	.app {
+		min-height: 100vh;
+		min-height: calc(var(--vh, 1vh) * 100);
+
+		&_container {
+			position: relative;
+			padding-top: 3.5rem;
+			padding-bottom: 10rem;
+
+			height: 100%;
+			width: 100%;
+
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+	}
+}

@@ -32,3 +32,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+```
+1. yarn create next-app ts-project --ts
+2. yarn add -D @testing-library/react @testing-library/user-event @testing-library/dom @testing-library/jest-dom eslint-plugin-jest eslint-plugin-testing-library jest-environment-jsdom sass lint-staged prettier jest ts-jest @types/jest
+3. yarn eslint --init
+4. yarn ts-jest config:init
+5. npx mrm@2 lint-staged
+6. Move relevant files/folders to src folder
+7. Copy/paste .eslintrc.json, .prettierrc, .husky/pre-commit, jest.config.js, jest.setup.ts, tsconfig.jest.json, tsconfig.json
+```

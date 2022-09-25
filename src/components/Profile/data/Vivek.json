@@ -1,0 +1,133 @@
+{
+	"name": "Vivek Shirdhar",
+	"blocks": [
+		{
+			"id": "shape1",
+			"_key": "shape1",
+			"name": "shape1",
+			"blockType": "intro",
+			"categories": ["About", "Contact"],
+			"description": "hi, I'm <b>Vivek Shirdhar</b> taking the synergy of Cloud to the eternity ☁  Senior Cloud Advocate @<b>Microsoft</b> | Startup Founder | Technophile",
+			"shape": "horizontal_R",
+			"image": "https://i.imgur.com/nwDFxT2.jpg"
+		},
+		{
+			"id": "shape2",
+			"_key": "shape2",
+			"name": "shape2",
+			"blockType": "theme",
+			"categories": ["Theme"],
+			"shape": "square"
+		},
+
+		{
+			"id": "meetup",
+			"_key": "meetup",
+			"name": "meetup",
+			"blockType": "image",
+			"url": "https://www.youtube.com/watch?v=llcgKeI-oJg",
+			"buttonText": "Meetup",
+			"image": "https://i.imgur.com/KwiwlLV.png",
+			"categories": ["Community"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "reactor",
+			"_key": "reactor",
+			"name": "reactor",
+			"blockType": "image",
+			"url": "https://developer.microsoft.com/en-us/reactor/?wt.mc_id=youtube_0_video_reactor",
+			"buttonText": "Microsoft Reactor",
+			"image": "https://i.imgur.com/iQfiIZR.jpg",
+			"categories": ["Community"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "samosa",
+			"_key": "samosa",
+			"name": "samosa",
+			"blockType": "image",
+			"url": "https://www.youtube.com/watch?v=KIARCDNzK4A",
+			"buttonText": "Microsoft SamosaChai",
+			"image": "/images/new/samosa.png",
+			"categories": ["Community"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "microsoft",
+			"_key": "microsoft",
+			"name": "microsoft",
+			"blockType": "image",
+			"url": "https://learn.microsoft.com/",
+			"buttonText": "Microsoft",
+			"image": "https://i.imgur.com/ilgLTNb.jpg",
+			"categories": ["Microsoft"],
+			"shape": "vertical_R"
+		},
+		{
+			"id": "ignite",
+			"_key": "ignite",
+			"name": "ignite",
+			"blockType": "image",
+			"url": "https://ignite.microsoft.com/",
+			"buttonText": "Microsoft Ignite",
+			"image": "https://i.imgur.com/ADmMwAn.png",
+			"categories": ["Microsoft"],
+			"shape": "vertical_R"
+		},
+		{
+			"id": "instagram",
+			"_key": "instagram",
+			"name": "instagram",
+			"blockType": "social",
+			"socialType": "instagram",
+			"url": "https://instagram.com/Vivsridh",
+			"categories": ["About"],
+			"shape": "square"
+		},
+		{
+			"id": "linkedin",
+			"_key": "linkedin",
+			"name": "linkedin",
+			"blockType": "social",
+			"socialType": "linkedin",
+			"url": "https://www.linkedin.com/in/vivsridh/",
+			"categories": ["About"],
+			"shape": "square"
+		},
+		{
+			"id": "twitter",
+			"_key": "twitter",
+			"name": "twitter",
+			"blockType": "social",
+			"socialType": "twitter",
+			"url": "https://twitter.com/vivek_sridhar",
+			"categories": ["About"],
+			"shape": "square"
+		},
+		{
+			"id": "learnathon",
+			"_key": "learnathon",
+			"name": "learnathon",
+			"blockType": "image",
+			"url": "https://www.meetup.com/microsoft-reactor-bengaluru/events/288155698/",
+			"buttonText": "Learnathon",
+			"image": "https://i.imgur.com/CNa5TVm.png",
+			"categories": ["Microsoft"],
+			"shape": "horizontal_R"
+		},
+		{
+			"id": "Publications",
+			"_key": "Publications",
+			"name": "Publications",
+			"blockType": "image",
+			"url": "https://www.meetup.com/microsoft-reactor-bengaluru/events/288155698/",
+			"buttonText": "Publications",
+			"image": "https://i.imgur.com/5bxXle0.jpg",
+			"categories": ["Community"],
+			"shape": "horizontal_R"
+		}
+	],
+	"categories": ["Home", "About", "Community", "Microsoft"],
+	"theme": "dark"
+}

@@ -1,0 +1,40 @@
+@use "../../../../styles/abstract" as *;
+
+.block_container {
+	@include flex-center-center;
+
+	.button_container {
+		display: flex;
+		align-items: center;
+		background-color: var(--secondary-color);
+
+		cursor: pointer;
+		width: 6rem;
+		height: fit-content;
+		padding: 0.5rem 0;
+		border-radius: 1.5rem;
+
+		.icon_container {
+			transition: transform 0.5s, background-color var(--transition-time);
+			display: flex;
+			transform: translateX(50%) rotate(0deg);
+			align-items: center;
+			justify-content: center;
+			width: 24px;
+			height: 24px;
+			border-radius: 50%;
+			background-color: var(--tertiary-color);
+
+			svg {
+				stroke: var(--primary-color);
+				width: 16px;
+				height: 16px;
+			}
+		}
+	}
+	.change {
+		.icon_container {
+			transform: translateX(250%) rotate(180deg);
+		}
+	}
+}

@@ -1,0 +1,68 @@
+[
+	{
+		"id": "shape1",
+		"_key": "shape1",
+		"name": "shape1",
+		"blockType": "intro",
+		"categories": ["About", "Contact"],
+		"description": "Hi! I am <b>Phelicia Klechlachen</b>. An <b>Executive Technical Director</b> at <b>osenorth</b>. I'm interested in Code, Design, Business, Crypto, Startups and Marketing.",
+		"shape": "horizontal_R",
+		"image": "/images/default/osenorth.png"
+	},
+	{
+		"id": "shape2",
+		"_key": "shape2",
+		"name": "shape2",
+		"blockType": "theme",
+		"categories": ["Theme"],
+		"shape": "square"
+	},
+	{
+		"id": "shape3",
+		"_key": "shape3",
+		"name": "shape3",
+		"blockType": "social",
+		"socialType": "instagram",
+		"url": "/",
+		"categories": ["Contact"],
+		"shape": "square"
+	},
+
+	{
+		"id": "shape5",
+		"_key": "shape5",
+		"name": "shape5",
+		"blockType": "image",
+		"buttonText": "View Project",
+		"image": "put link here",
+		"categories": ["Work"],
+		"shape": "vertical_R"
+	},
+
+	{
+		"id": "shape10",
+		"_key": "shape10",
+		"name": "shape10",
+		"blockType": "text",
+		"categories": ["Work"],
+		"buttonText": "Mail me",
+		"url": "/profile",
+		"heading": "Do you have a dope project?",
+		"description": "I accept contract/freelance jobs, collaborating with companies, startups, brands small-businesses and individuals/entrepreneurs.",
+		"shape": "horizontal_R"
+	},
+
+	{
+		"id": "shape14",
+		"_key": "shape14",
+		"name": "shape14",
+		"blockType": "input",
+		"categories": ["Work"],
+		"buttonText": "Subscribe",
+		"url": "/profile",
+		"heading": "May I keep you in my loop?",
+		"description": "Content includes articles, early access to products, and ongoing learnings.",
+		"placeholder": "Email address",
+		"shape": "horizontal_R"
+	}
+]
