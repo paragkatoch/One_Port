@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'unoport'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2D2F05BED7834930981BEA52024D60B5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_87AC9D7ABBC6480DA8B94D4CDCBE64B7 }}
           package: .
