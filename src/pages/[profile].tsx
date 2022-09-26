@@ -83,7 +83,7 @@ export default function PublicProfile({
 								? blocksData[0].description
 								: "",
 						url: `${appURL}/${slug}`,
-						image: "https://i.ibb.co/FK5RzPQ/oneport-share.png",
+						image: "/",
 						slug,
 					}}
 				/>

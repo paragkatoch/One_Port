@@ -5,9 +5,9 @@
 		"name": "shape1",
 		"blockType": "intro",
 		"categories": ["About", "Contact"],
-		"description": "Hi! I am <b>Phelicia Klechlachen</b>. An <b>Executive Technical Director</b> at <b>osenorth</b>. I'm interested in Code, Design, Business, Crypto, Startups and Marketing.",
+		"description": "My description here",
 		"shape": "horizontal_R",
-		"image": "/images/default/osenorth.png"
+		"image": "/images/default/c.png"
 	},
 	{
 		"id": "shape2",
